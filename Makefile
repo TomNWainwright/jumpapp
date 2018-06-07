@@ -1,7 +1,6 @@
-PREFIX = $out
 
-BIN	= $(DESTDIR)/$(PREFIX)/bin
-MAN	= $(DESTDIR)/$(PREFIX)/share/man
+BIN	= $(out)/bin
+MAN	= $(out)/share/man
 
 VERSION			= 0.9
 PACKAGE_DIR		= jumpapp-$(VERSION)
