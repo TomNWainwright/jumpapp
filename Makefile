@@ -1,4 +1,4 @@
-PREFIX = /usr/local
+PREFIX = $out
 
 BIN	= $(DESTDIR)/$(PREFIX)/bin
 MAN	= $(DESTDIR)/$(PREFIX)/share/man
